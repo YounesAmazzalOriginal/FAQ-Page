@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: 0;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+h1 {
+  margin-bottom: 30px;
+  color: orange;
+  font-weight: 500;
+}
+
+.Container {
+  background-color: #ffffff;
+  border-radius: 0px !important;
+  width: 80%;
+  /* width: 500px; */
+  padding: 10px 15px;
+  height: 43px;
+  cursor: default;
+  overflow: hidden;
+  transition: all 0.4s;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.Container:hover {
+  background-color: #e8e8e8;
+}
+
+.Container:first-of-type {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.Container:last-of-type {
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.title {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+}
+
+.answer {
+  font-size: 0.9rem;
+  line-height: 19px;
+  padding-top: 10px;
+  margin-top: 10px;
+  color: #555555;
+}
+
+.hideAnswerClass {
+  display: none;
+}
+
+button i {
+  font-size: 1rem;
+  color: orange;
+}
+
+.themeChangerClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  border-radius: 100%;
+  min-width: 35px;
+  max-width: 35px;
+  min-height: 35px;
+  max-height: 35px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+.themeChangerClass i {
+  font-size: 1.4rem;
+  color: white;
+  transition: all 0.5s;
+}
